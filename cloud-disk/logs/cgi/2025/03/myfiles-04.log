@@ -1,0 +1,8 @@
+[2025-03-04 22:35:51]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-03-04 22:35:51]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "cd8a2710fa6a5996998b01cdbae76f9f",
+    "user": "zhangbo"
+}
+
+[2025-03-04 22:35:51]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zhangbo" 操作失败
+[2025-03-04 22:35:51]--[src_cgi/myfiles_cgi.c:176]--line = 0

@@ -1,0 +1,76 @@
+[2025-02-24 10:20:45]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-24 10:20:45]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "e2011084d47dc853d6cba33f8435b0d9",
+    "user": "ke6"
+}
+
+[2025-02-24 10:20:45]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-24 10:20:45]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-24 10:20:45]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "e2011084d47dc853d6cba33f8435b0d9",
+    "user": "ke6"
+}
+
+[2025-02-24 10:20:45]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = e2011084d47dc853d6cba33f8435b0d9, start = 0, count = 1
+[2025-02-24 10:20:45]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-24 10:20:45]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-24 10:20:54]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-24 10:20:54]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "e2011084d47dc853d6cba33f8435b0d9",
+    "user": "ke6"
+}
+
+[2025-02-24 10:20:54]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-24 10:20:54]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-24 10:20:54]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "e2011084d47dc853d6cba33f8435b0d9",
+    "user": "ke6"
+}
+
+[2025-02-24 10:20:54]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = e2011084d47dc853d6cba33f8435b0d9, start = 0, count = 1
+[2025-02-24 10:20:54]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-24 10:20:54]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-24 10:21:02]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-24 10:21:02]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "1e8094c2d0fdbd3db9b52f37eae5c4df",
+    "user": "zhangbo"
+}
+
+[2025-02-24 10:21:02]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zhangbo" 操作失败
+[2025-02-24 10:21:02]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-24 10:21:04]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-24 10:21:04]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "1e8094c2d0fdbd3db9b52f37eae5c4df",
+    "user": "zhangbo"
+}
+
+[2025-02-24 10:21:04]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zhangbo" 操作失败
+[2025-02-24 10:21:04]--[src_cgi/myfiles_cgi.c:176]--line = 0

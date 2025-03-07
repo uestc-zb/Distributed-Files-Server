@@ -1,0 +1,346 @@
+13344:C 20 Feb 2025 15:06:31.758 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+13345:C 20 Feb 2025 15:06:31.761 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+13345:C 20 Feb 2025 15:06:31.761 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=13345, just started
+13345:C 20 Feb 2025 15:06:31.762 * Configuration loaded
+13345:M 20 Feb 2025 15:06:31.762 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+13345:M 20 Feb 2025 15:06:31.762 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+13345:M 20 Feb 2025 15:06:31.762 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+13345:M 20 Feb 2025 15:06:31.762 * monotonic clock: POSIX clock_gettime
+13345:M 20 Feb 2025 15:06:31.763 # Failed to write PID file: No such file or directory
+13345:M 20 Feb 2025 15:06:31.763 * Running mode=standalone, port=6379.
+13345:M 20 Feb 2025 15:06:31.765 * Server initialized
+13345:M 20 Feb 2025 15:06:31.765 * Loading RDB produced by version 3.2.8
+13345:M 20 Feb 2025 15:06:31.765 * RDB age 226898847 seconds
+13345:M 20 Feb 2025 15:06:31.765 * RDB memory usage when created 0.72 Mb
+13345:M 20 Feb 2025 15:06:31.765 * Done loading RDB, keys loaded: 2, keys expired: 4.
+13345:M 20 Feb 2025 15:06:31.765 * DB loaded from disk: 0.000 seconds
+13345:M 20 Feb 2025 15:06:31.766 * Ready to accept connections tcp
+13371:C 20 Feb 2025 15:07:46.110 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+13372:C 20 Feb 2025 15:07:46.112 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+13372:C 20 Feb 2025 15:07:46.112 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=13372, just started
+13372:C 20 Feb 2025 15:07:46.112 * Configuration loaded
+13372:M 20 Feb 2025 15:07:46.114 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+13372:M 20 Feb 2025 15:07:46.114 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+13372:M 20 Feb 2025 15:07:46.114 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+13372:M 20 Feb 2025 15:07:46.114 * monotonic clock: POSIX clock_gettime
+13372:M 20 Feb 2025 15:07:46.114 * Running mode=standalone, port=6379.
+13372:M 20 Feb 2025 15:07:46.115 * Server initialized
+13372:M 20 Feb 2025 15:07:46.116 * Loading RDB produced by version 3.2.8
+13372:M 20 Feb 2025 15:07:46.116 * RDB age 226898922 seconds
+13372:M 20 Feb 2025 15:07:46.116 * RDB memory usage when created 0.72 Mb
+13372:M 20 Feb 2025 15:07:46.116 * Done loading RDB, keys loaded: 2, keys expired: 4.
+13372:M 20 Feb 2025 15:07:46.116 * DB loaded from disk: 0.001 seconds
+13372:M 20 Feb 2025 15:07:46.116 * Ready to accept connections tcp
+13611:C 20 Feb 2025 15:12:38.636 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+13612:C 20 Feb 2025 15:12:38.638 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+13612:C 20 Feb 2025 15:12:38.638 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=13612, just started
+13612:C 20 Feb 2025 15:12:38.638 * Configuration loaded
+13612:M 20 Feb 2025 15:12:38.639 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+13612:M 20 Feb 2025 15:12:38.639 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+13612:M 20 Feb 2025 15:12:38.639 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+13612:M 20 Feb 2025 15:12:38.639 * monotonic clock: POSIX clock_gettime
+13612:M 20 Feb 2025 15:12:38.640 * Running mode=standalone, port=6379.
+13612:M 20 Feb 2025 15:12:38.640 * Server initialized
+13612:M 20 Feb 2025 15:12:38.640 * Loading RDB produced by version 3.2.8
+13612:M 20 Feb 2025 15:12:38.640 * RDB age 226899214 seconds
+13612:M 20 Feb 2025 15:12:38.640 * RDB memory usage when created 0.72 Mb
+13612:M 20 Feb 2025 15:12:38.640 * Done loading RDB, keys loaded: 2, keys expired: 4.
+13612:M 20 Feb 2025 15:12:38.641 * DB loaded from disk: 0.000 seconds
+13612:M 20 Feb 2025 15:12:38.641 * Ready to accept connections tcp
+13858:C 20 Feb 2025 15:15:05.997 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+13859:C 20 Feb 2025 15:15:05.998 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+13859:C 20 Feb 2025 15:15:05.999 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=13859, just started
+13859:C 20 Feb 2025 15:15:05.999 * Configuration loaded
+13859:M 20 Feb 2025 15:15:05.999 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+13859:M 20 Feb 2025 15:15:05.999 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+13859:M 20 Feb 2025 15:15:05.999 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+13859:M 20 Feb 2025 15:15:05.999 * monotonic clock: POSIX clock_gettime
+13859:M 20 Feb 2025 15:15:05.999 * Running mode=standalone, port=6379.
+13859:M 20 Feb 2025 15:15:06.000 * Server initialized
+13859:M 20 Feb 2025 15:15:06.001 * Loading RDB produced by version 3.2.8
+13859:M 20 Feb 2025 15:15:06.001 * RDB age 226899361 seconds
+13859:M 20 Feb 2025 15:15:06.001 * RDB memory usage when created 0.72 Mb
+13859:M 20 Feb 2025 15:15:06.001 * Done loading RDB, keys loaded: 2, keys expired: 4.
+13859:M 20 Feb 2025 15:15:06.001 * DB loaded from disk: 0.001 seconds
+13859:M 20 Feb 2025 15:15:06.001 * Ready to accept connections tcp
+14309:C 20 Feb 2025 15:21:48.217 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+14310:C 20 Feb 2025 15:21:48.219 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14310:C 20 Feb 2025 15:21:48.219 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=14310, just started
+14310:C 20 Feb 2025 15:21:48.219 * Configuration loaded
+14310:M 20 Feb 2025 15:21:48.219 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+14310:M 20 Feb 2025 15:21:48.219 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+14310:M 20 Feb 2025 15:21:48.219 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+14310:M 20 Feb 2025 15:21:48.220 * monotonic clock: POSIX clock_gettime
+14310:M 20 Feb 2025 15:21:48.220 * Running mode=standalone, port=6379.
+14310:M 20 Feb 2025 15:21:48.222 * Server initialized
+14310:M 20 Feb 2025 15:21:48.222 * Loading RDB produced by version 3.2.8
+14310:M 20 Feb 2025 15:21:48.222 * RDB age 226899764 seconds
+14310:M 20 Feb 2025 15:21:48.222 * RDB memory usage when created 0.72 Mb
+14310:M 20 Feb 2025 15:21:48.222 * Done loading RDB, keys loaded: 2, keys expired: 4.
+14310:M 20 Feb 2025 15:21:48.222 * DB loaded from disk: 0.000 seconds
+14310:M 20 Feb 2025 15:21:48.222 * Ready to accept connections tcp
+14441:C 20 Feb 2025 15:22:48.158 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+14442:C 20 Feb 2025 15:22:48.159 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14442:C 20 Feb 2025 15:22:48.159 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=14442, just started
+14442:C 20 Feb 2025 15:22:48.159 * Configuration loaded
+14442:M 20 Feb 2025 15:22:48.160 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+14442:M 20 Feb 2025 15:22:48.160 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+14442:M 20 Feb 2025 15:22:48.160 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+14442:M 20 Feb 2025 15:22:48.160 * monotonic clock: POSIX clock_gettime
+14442:M 20 Feb 2025 15:22:48.160 * Running mode=standalone, port=6379.
+14442:M 20 Feb 2025 15:22:48.161 * Server initialized
+14442:M 20 Feb 2025 15:22:48.162 * Loading RDB produced by version 3.2.8
+14442:M 20 Feb 2025 15:22:48.162 * RDB age 226899824 seconds
+14442:M 20 Feb 2025 15:22:48.162 * RDB memory usage when created 0.72 Mb
+14442:M 20 Feb 2025 15:22:48.162 * Done loading RDB, keys loaded: 2, keys expired: 4.
+14442:M 20 Feb 2025 15:22:48.162 * DB loaded from disk: 0.001 seconds
+14442:M 20 Feb 2025 15:22:48.162 * Ready to accept connections tcp
+15007:C 20 Feb 2025 15:39:15.431 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+15008:C 20 Feb 2025 15:39:15.432 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+15008:C 20 Feb 2025 15:39:15.432 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=15008, just started
+15008:C 20 Feb 2025 15:39:15.432 * Configuration loaded
+15008:M 20 Feb 2025 15:39:15.433 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+15008:M 20 Feb 2025 15:39:15.433 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+15008:M 20 Feb 2025 15:39:15.433 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+15008:M 20 Feb 2025 15:39:15.433 * monotonic clock: POSIX clock_gettime
+15008:M 20 Feb 2025 15:39:15.433 * Running mode=standalone, port=6379.
+15008:M 20 Feb 2025 15:39:15.435 * Server initialized
+15008:M 20 Feb 2025 15:39:15.435 * Loading RDB produced by version 3.2.8
+15008:M 20 Feb 2025 15:39:15.435 * RDB age 226900811 seconds
+15008:M 20 Feb 2025 15:39:15.435 * RDB memory usage when created 0.72 Mb
+15008:M 20 Feb 2025 15:39:15.435 * Done loading RDB, keys loaded: 2, keys expired: 4.
+15008:M 20 Feb 2025 15:39:15.435 * DB loaded from disk: 0.000 seconds
+15008:M 20 Feb 2025 15:39:15.435 * Ready to accept connections tcp
+15426:C 20 Feb 2025 15:43:31.643 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+15427:C 20 Feb 2025 15:43:31.644 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+15427:C 20 Feb 2025 15:43:31.644 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=15427, just started
+15427:C 20 Feb 2025 15:43:31.644 * Configuration loaded
+15427:M 20 Feb 2025 15:43:31.645 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+15427:M 20 Feb 2025 15:43:31.645 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+15427:M 20 Feb 2025 15:43:31.645 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+15427:M 20 Feb 2025 15:43:31.645 * monotonic clock: POSIX clock_gettime
+15427:M 20 Feb 2025 15:43:31.645 * Running mode=standalone, port=6379.
+15427:M 20 Feb 2025 15:43:31.646 * Server initialized
+15427:M 20 Feb 2025 15:43:31.646 * Loading RDB produced by version 3.2.8
+15427:M 20 Feb 2025 15:43:31.646 * RDB age 226901067 seconds
+15427:M 20 Feb 2025 15:43:31.646 * RDB memory usage when created 0.72 Mb
+15427:M 20 Feb 2025 15:43:31.646 * Done loading RDB, keys loaded: 2, keys expired: 4.
+15427:M 20 Feb 2025 15:43:31.646 * DB loaded from disk: 0.000 seconds
+15427:M 20 Feb 2025 15:43:31.646 * Ready to accept connections tcp
+8287:C 21 Feb 2025 15:03:03.496 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+8288:C 21 Feb 2025 15:03:03.498 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+8288:C 21 Feb 2025 15:03:03.498 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=8288, just started
+8288:C 21 Feb 2025 15:03:03.498 * Configuration loaded
+8288:M 21 Feb 2025 15:03:03.500 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+8288:M 21 Feb 2025 15:03:03.500 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+8288:M 21 Feb 2025 15:03:03.500 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+8288:M 21 Feb 2025 15:03:03.500 * monotonic clock: POSIX clock_gettime
+8288:M 21 Feb 2025 15:03:03.500 * Running mode=standalone, port=6379.
+8288:M 21 Feb 2025 15:03:03.502 * Server initialized
+8288:M 21 Feb 2025 15:03:03.503 * Loading RDB produced by version 3.2.8
+8288:M 21 Feb 2025 15:03:03.503 * RDB age 226985039 seconds
+8288:M 21 Feb 2025 15:03:03.503 * RDB memory usage when created 0.72 Mb
+8288:M 21 Feb 2025 15:03:03.503 * Done loading RDB, keys loaded: 2, keys expired: 4.
+8288:M 21 Feb 2025 15:03:03.503 * DB loaded from disk: 0.001 seconds
+8288:M 21 Feb 2025 15:03:03.503 * Ready to accept connections tcp
+8288:M 21 Feb 2025 15:18:04.041 * 1 changes in 900 seconds. Saving...
+8288:M 21 Feb 2025 15:18:04.041 * Background saving started by pid 8412
+8412:C 21 Feb 2025 15:18:04.046 * DB saved on disk
+8412:C 21 Feb 2025 15:18:04.046 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+8288:M 21 Feb 2025 15:18:04.142 * Background saving terminated with success
+8288:M 21 Feb 2025 16:55:32.471 * 1 changes in 900 seconds. Saving...
+8288:M 21 Feb 2025 16:55:32.471 * Background saving started by pid 9341
+9341:C 21 Feb 2025 16:55:32.483 * DB saved on disk
+9341:C 21 Feb 2025 16:55:32.483 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+8288:M 21 Feb 2025 16:55:32.573 * Background saving terminated with success
+8288:M 21 Feb 2025 17:29:23.973 * 1 changes in 900 seconds. Saving...
+8288:M 21 Feb 2025 17:29:23.974 * Background saving started by pid 9547
+9547:C 21 Feb 2025 17:29:23.991 * DB saved on disk
+9547:C 21 Feb 2025 17:29:23.992 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+8288:M 21 Feb 2025 17:29:24.075 * Background saving terminated with success
+8288:M 21 Feb 2025 17:44:25.087 * 1 changes in 900 seconds. Saving...
+8288:M 21 Feb 2025 17:44:25.088 * Background saving started by pid 9621
+9621:C 21 Feb 2025 17:44:25.091 * DB saved on disk
+9621:C 21 Feb 2025 17:44:25.091 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+8288:M 21 Feb 2025 17:44:25.189 * Background saving terminated with success
+11765:C 21 Feb 2025 23:41:54.065 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+11766:C 21 Feb 2025 23:41:54.066 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+11766:C 21 Feb 2025 23:41:54.066 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=11766, just started
+11766:C 21 Feb 2025 23:41:54.066 * Configuration loaded
+11766:M 21 Feb 2025 23:41:54.068 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+11766:M 21 Feb 2025 23:41:54.068 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+11766:M 21 Feb 2025 23:41:54.068 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+11766:M 21 Feb 2025 23:41:54.068 * monotonic clock: POSIX clock_gettime
+11766:M 21 Feb 2025 23:41:54.074 * Running mode=standalone, port=6379.
+11766:M 21 Feb 2025 23:41:54.075 * Server initialized
+11766:M 21 Feb 2025 23:41:54.075 * Loading RDB produced by version 7.2.5
+11766:M 21 Feb 2025 23:41:54.075 * RDB age 21449 seconds
+11766:M 21 Feb 2025 23:41:54.075 * RDB memory usage when created 0.82 Mb
+11766:M 21 Feb 2025 23:41:54.076 * Done loading RDB, keys loaded: 3, keys expired: 0.
+11766:M 21 Feb 2025 23:41:54.076 * DB loaded from disk: 0.001 seconds
+11766:M 21 Feb 2025 23:41:54.076 * Ready to accept connections tcp
+12155:C 21 Feb 2025 23:44:34.535 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+12156:C 21 Feb 2025 23:44:34.536 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+12156:C 21 Feb 2025 23:44:34.536 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=12156, just started
+12156:C 21 Feb 2025 23:44:34.536 * Configuration loaded
+12156:M 21 Feb 2025 23:44:34.537 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+12156:M 21 Feb 2025 23:44:34.537 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+12156:M 21 Feb 2025 23:44:34.537 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+12156:M 21 Feb 2025 23:44:34.537 * monotonic clock: POSIX clock_gettime
+12156:M 21 Feb 2025 23:44:34.538 * Running mode=standalone, port=6379.
+12156:M 21 Feb 2025 23:44:34.539 * Server initialized
+12156:M 21 Feb 2025 23:44:34.539 * Loading RDB produced by version 7.2.5
+12156:M 21 Feb 2025 23:44:34.539 * RDB age 21609 seconds
+12156:M 21 Feb 2025 23:44:34.539 * RDB memory usage when created 0.82 Mb
+12156:M 21 Feb 2025 23:44:34.539 * Done loading RDB, keys loaded: 3, keys expired: 0.
+12156:M 21 Feb 2025 23:44:34.539 * DB loaded from disk: 0.000 seconds
+12156:M 21 Feb 2025 23:44:34.539 * Ready to accept connections tcp
+13356:C 21 Feb 2025 23:58:47.368 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+13357:C 21 Feb 2025 23:58:47.368 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+13357:C 21 Feb 2025 23:58:47.368 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=13357, just started
+13357:C 21 Feb 2025 23:58:47.368 * Configuration loaded
+13357:M 21 Feb 2025 23:58:47.369 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+13357:M 21 Feb 2025 23:58:47.369 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+13357:M 21 Feb 2025 23:58:47.369 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+13357:M 21 Feb 2025 23:58:47.369 * monotonic clock: POSIX clock_gettime
+13357:M 21 Feb 2025 23:58:47.369 * Running mode=standalone, port=6379.
+13357:M 21 Feb 2025 23:58:47.370 * Server initialized
+13357:M 21 Feb 2025 23:58:47.370 * Loading RDB produced by version 7.2.5
+13357:M 21 Feb 2025 23:58:47.370 * RDB age 22462 seconds
+13357:M 21 Feb 2025 23:58:47.370 * RDB memory usage when created 0.82 Mb
+13357:M 21 Feb 2025 23:58:47.370 * Done loading RDB, keys loaded: 3, keys expired: 0.
+13357:M 21 Feb 2025 23:58:47.370 * DB loaded from disk: 0.000 seconds
+13357:M 21 Feb 2025 23:58:47.370 * Ready to accept connections tcp
+14436:C 22 Feb 2025 00:12:53.558 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+14437:C 22 Feb 2025 00:12:53.559 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14437:C 22 Feb 2025 00:12:53.559 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=14437, just started
+14437:C 22 Feb 2025 00:12:53.559 * Configuration loaded
+14437:M 22 Feb 2025 00:12:53.559 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+14437:M 22 Feb 2025 00:12:53.559 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+14437:M 22 Feb 2025 00:12:53.559 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+14437:M 22 Feb 2025 00:12:53.559 * monotonic clock: POSIX clock_gettime
+14437:M 22 Feb 2025 00:12:53.560 * Running mode=standalone, port=6379.
+14437:M 22 Feb 2025 00:12:53.560 * Server initialized
+14437:M 22 Feb 2025 00:12:53.560 * Loading RDB produced by version 7.2.5
+14437:M 22 Feb 2025 00:12:53.560 * RDB age 23308 seconds
+14437:M 22 Feb 2025 00:12:53.560 * RDB memory usage when created 0.82 Mb
+14437:M 22 Feb 2025 00:12:53.560 * Done loading RDB, keys loaded: 3, keys expired: 0.
+14437:M 22 Feb 2025 00:12:53.560 * DB loaded from disk: 0.000 seconds
+14437:M 22 Feb 2025 00:12:53.560 * Ready to accept connections tcp
+3469:C 22 Feb 2025 00:18:54.791 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+3470:C 22 Feb 2025 00:18:54.795 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+3470:C 22 Feb 2025 00:18:54.795 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=3470, just started
+3470:C 22 Feb 2025 00:18:54.795 * Configuration loaded
+3470:M 22 Feb 2025 00:18:54.795 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+3470:M 22 Feb 2025 00:18:54.795 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+3470:M 22 Feb 2025 00:18:54.795 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+3470:M 22 Feb 2025 00:18:54.795 * monotonic clock: POSIX clock_gettime
+3470:M 22 Feb 2025 00:18:54.796 * Running mode=standalone, port=6379.
+3470:M 22 Feb 2025 00:18:54.797 * Server initialized
+3470:M 22 Feb 2025 00:18:54.797 * Loading RDB produced by version 7.2.5
+3470:M 22 Feb 2025 00:18:54.798 * RDB age 23669 seconds
+3470:M 22 Feb 2025 00:18:54.798 * RDB memory usage when created 0.82 Mb
+3470:M 22 Feb 2025 00:18:54.798 * Done loading RDB, keys loaded: 3, keys expired: 0.
+3470:M 22 Feb 2025 00:18:54.798 * DB loaded from disk: 0.000 seconds
+3470:M 22 Feb 2025 00:18:54.798 * Ready to accept connections tcp
+3470:M 22 Feb 2025 00:33:55.000 * 1 changes in 900 seconds. Saving...
+3470:M 22 Feb 2025 00:33:55.000 * Background saving started by pid 3716
+3716:C 22 Feb 2025 00:33:55.005 * DB saved on disk
+3716:C 22 Feb 2025 00:33:55.005 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+3470:M 22 Feb 2025 00:33:55.101 * Background saving terminated with success
+4225:C 22 Feb 2025 00:47:27.336 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+4226:C 22 Feb 2025 00:47:27.338 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4226:C 22 Feb 2025 00:47:27.338 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=4226, just started
+4226:C 22 Feb 2025 00:47:27.338 * Configuration loaded
+4226:M 22 Feb 2025 00:47:27.339 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+4226:M 22 Feb 2025 00:47:27.339 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+4226:M 22 Feb 2025 00:47:27.339 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+4226:M 22 Feb 2025 00:47:27.339 * monotonic clock: POSIX clock_gettime
+4226:M 22 Feb 2025 00:47:27.340 * Running mode=standalone, port=6379.
+4226:M 22 Feb 2025 00:47:27.341 * Server initialized
+4226:M 22 Feb 2025 00:47:27.342 * Loading RDB produced by version 7.2.5
+4226:M 22 Feb 2025 00:47:27.342 * RDB age 813 seconds
+4226:M 22 Feb 2025 00:47:27.342 * RDB memory usage when created 0.61 Mb
+4226:M 22 Feb 2025 00:47:27.342 * Done loading RDB, keys loaded: 5, keys expired: 0.
+4226:M 22 Feb 2025 00:47:27.342 * DB loaded from disk: 0.002 seconds
+4226:M 22 Feb 2025 00:47:27.342 * Ready to accept connections tcp
+2971:C 22 Feb 2025 01:00:06.939 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2972:C 22 Feb 2025 01:00:06.940 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2972:C 22 Feb 2025 01:00:06.940 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=2972, just started
+2972:C 22 Feb 2025 01:00:06.940 * Configuration loaded
+2972:M 22 Feb 2025 01:00:06.941 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+2972:M 22 Feb 2025 01:00:06.941 * monotonic clock: POSIX clock_gettime
+2972:M 22 Feb 2025 01:00:06.942 * Running mode=standalone, port=6379.
+2972:M 22 Feb 2025 01:00:06.944 * Server initialized
+2972:M 22 Feb 2025 01:00:06.944 * Loading RDB produced by version 7.2.5
+2972:M 22 Feb 2025 01:00:06.944 * RDB age 1572 seconds
+2972:M 22 Feb 2025 01:00:06.944 * RDB memory usage when created 0.61 Mb
+2972:M 22 Feb 2025 01:00:06.944 * Done loading RDB, keys loaded: 5, keys expired: 0.
+2972:M 22 Feb 2025 01:00:06.944 * DB loaded from disk: 0.000 seconds
+2972:M 22 Feb 2025 01:00:06.945 * Ready to accept connections tcp
+2972:M 22 Feb 2025 01:15:07.052 * 1 changes in 900 seconds. Saving...
+2972:M 22 Feb 2025 01:15:07.052 * Background saving started by pid 3405
+3405:C 22 Feb 2025 01:15:07.058 * DB saved on disk
+3405:C 22 Feb 2025 01:15:07.059 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2972:M 22 Feb 2025 01:15:07.153 * Background saving terminated with success
+2972:M 22 Feb 2025 01:30:08.079 * 1 changes in 900 seconds. Saving...
+2972:M 22 Feb 2025 01:30:08.080 * Background saving started by pid 4085
+4085:C 22 Feb 2025 01:30:08.083 * DB saved on disk
+4085:C 22 Feb 2025 01:30:08.084 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+2972:M 22 Feb 2025 01:30:08.181 * Background saving terminated with success
+7093:C 22 Feb 2025 01:44:21.152 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+7094:C 22 Feb 2025 01:44:21.154 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+7094:C 22 Feb 2025 01:44:21.154 * Redis version=7.2.5, bits=64, commit=00000000, modified=0, pid=7094, just started
+7094:C 22 Feb 2025 01:44:21.154 * Configuration loaded
+7094:M 22 Feb 2025 01:44:21.154 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+7094:M 22 Feb 2025 01:44:21.154 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+7094:M 22 Feb 2025 01:44:21.154 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+7094:M 22 Feb 2025 01:44:21.154 * monotonic clock: POSIX clock_gettime
+7094:M 22 Feb 2025 01:44:21.155 * Running mode=standalone, port=6379.
+7094:M 22 Feb 2025 01:44:21.156 * Server initialized
+7094:M 22 Feb 2025 01:44:21.157 * Loading RDB produced by version 7.2.5
+7094:M 22 Feb 2025 01:44:21.157 * RDB age 853 seconds
+7094:M 22 Feb 2025 01:44:21.157 * RDB memory usage when created 0.87 Mb
+7094:M 22 Feb 2025 01:44:21.157 * Done loading RDB, keys loaded: 5, keys expired: 0.
+7094:M 22 Feb 2025 01:44:21.157 * DB loaded from disk: 0.001 seconds
+7094:M 22 Feb 2025 01:44:21.157 * Ready to accept connections tcp
+7094:M 22 Feb 2025 01:59:22.046 * 1 changes in 900 seconds. Saving...
+7094:M 22 Feb 2025 01:59:22.046 * Background saving started by pid 8455
+8455:C 22 Feb 2025 01:59:22.049 * DB saved on disk
+8455:C 22 Feb 2025 01:59:22.050 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7094:M 22 Feb 2025 01:59:22.147 * Background saving terminated with success
+7094:M 22 Feb 2025 09:13:25.042 * 1 changes in 900 seconds. Saving...
+7094:M 22 Feb 2025 09:13:25.071 * Background saving started by pid 8606
+8606:C 22 Feb 2025 09:13:25.096 * DB saved on disk
+8606:C 22 Feb 2025 09:13:25.097 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7094:M 22 Feb 2025 09:13:25.174 * Background saving terminated with success
+7094:M 22 Feb 2025 09:28:26.012 * 1 changes in 900 seconds. Saving...
+7094:M 22 Feb 2025 09:28:26.014 * Background saving started by pid 9170
+9170:C 22 Feb 2025 09:28:26.017 * DB saved on disk
+9170:C 22 Feb 2025 09:28:26.018 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7094:M 22 Feb 2025 09:28:26.116 * Background saving terminated with success
+7094:M 23 Feb 2025 07:47:07.411 * 1 changes in 900 seconds. Saving...
+7094:M 23 Feb 2025 07:47:07.416 * Background saving started by pid 13332
+13332:C 23 Feb 2025 07:47:07.439 * DB saved on disk
+13332:C 23 Feb 2025 07:47:07.440 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7094:M 23 Feb 2025 07:47:07.518 * Background saving terminated with success
+7094:M 23 Feb 2025 08:02:08.044 * 1 changes in 900 seconds. Saving...
+7094:M 23 Feb 2025 08:02:08.044 * Background saving started by pid 13961
+13961:C 23 Feb 2025 08:02:08.067 * DB saved on disk
+13961:C 23 Feb 2025 08:02:08.067 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7094:M 23 Feb 2025 08:02:08.145 * Background saving terminated with success
+7094:M 24 Feb 2025 10:20:45.596 * 1 changes in 900 seconds. Saving...
+7094:M 24 Feb 2025 10:20:45.597 * Background saving started by pid 17520
+17520:C 24 Feb 2025 10:20:45.612 * DB saved on disk
+17520:C 24 Feb 2025 10:20:45.612 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7094:M 24 Feb 2025 10:20:45.699 * Background saving terminated with success
+7094:M 24 Feb 2025 10:35:46.001 * 1 changes in 900 seconds. Saving...
+7094:M 24 Feb 2025 10:35:46.002 * Background saving started by pid 17854
+17854:C 24 Feb 2025 10:35:46.008 * DB saved on disk
+17854:C 24 Feb 2025 10:35:46.008 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7094:M 24 Feb 2025 10:35:46.104 * Background saving terminated with success
+7094:M 04 Mar 2025 22:35:51.709 * 1 changes in 900 seconds. Saving...
+7094:M 04 Mar 2025 22:35:51.713 * Background saving started by pid 51821
+51821:C 04 Mar 2025 22:35:51.736 * DB saved on disk
+51821:C 04 Mar 2025 22:35:51.738 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+7094:M 04 Mar 2025 22:35:51.815 * Background saving terminated with success

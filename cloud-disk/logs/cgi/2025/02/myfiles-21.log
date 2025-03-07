@@ -1,0 +1,497 @@
+[2025-02-21 15:03:02]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-21 15:04:22]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 15:04:22]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "19d75c77a5e9be67b450bedf98ad438a",
+    "user": "ke6"
+}
+
+[2025-02-21 15:04:22]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="ke6" 操作失败
+[2025-02-21 15:04:22]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-21 15:04:39]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 15:04:39]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "19d75c77a5e9be67b450bedf98ad438a",
+    "user": "ke6"
+}
+
+[2025-02-21 15:04:39]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="ke6" 操作失败
+[2025-02-21 15:04:39]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-21 15:05:07]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 15:05:07]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "19d75c77a5e9be67b450bedf98ad438a",
+    "user": "ke6"
+}
+
+[2025-02-21 15:05:07]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 15:05:07]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 15:05:07]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "19d75c77a5e9be67b450bedf98ad438a",
+    "user": "ke6"
+}
+
+[2025-02-21 15:05:07]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = 19d75c77a5e9be67b450bedf98ad438a, start = 0, count = 1
+[2025-02-21 15:05:07]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 15:05:07]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 15:05:16]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 15:05:16]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "19d75c77a5e9be67b450bedf98ad438a",
+    "user": "ke6"
+}
+
+[2025-02-21 15:05:16]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 15:05:16]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 15:05:16]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "19d75c77a5e9be67b450bedf98ad438a",
+    "user": "ke6"
+}
+
+[2025-02-21 15:05:16]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = 19d75c77a5e9be67b450bedf98ad438a, start = 0, count = 1
+[2025-02-21 15:05:16]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 15:05:16]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 15:05:21]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 15:05:21]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "19d75c77a5e9be67b450bedf98ad438a",
+    "user": "ke6"
+}
+
+[2025-02-21 15:05:21]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 15:05:21]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 15:05:21]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "19d75c77a5e9be67b450bedf98ad438a",
+    "user": "ke6"
+}
+
+[2025-02-21 15:05:21]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = 19d75c77a5e9be67b450bedf98ad438a, start = 0, count = 1
+[2025-02-21 15:05:21]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 15:05:21]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 15:06:23]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 15:06:23]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "19d75c77a5e9be67b450bedf98ad438a",
+    "user": "ke6"
+}
+
+[2025-02-21 15:06:23]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 15:06:23]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 15:06:23]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "19d75c77a5e9be67b450bedf98ad438a",
+    "user": "ke6"
+}
+
+[2025-02-21 15:06:23]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = 19d75c77a5e9be67b450bedf98ad438a, start = 0, count = 1
+[2025-02-21 15:06:23]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 15:06:23]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	0,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 15:06:36]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 15:06:36]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "19d75c77a5e9be67b450bedf98ad438a",
+    "user": "ke6"
+}
+
+[2025-02-21 15:06:36]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 15:06:36]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 15:06:36]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "19d75c77a5e9be67b450bedf98ad438a",
+    "user": "ke6"
+}
+
+[2025-02-21 15:06:36]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = 19d75c77a5e9be67b450bedf98ad438a, start = 0, count = 1
+[2025-02-21 15:06:36]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 15:06:36]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 15:07:10]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 15:07:10]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "d566d3f6bb1103d595aa0d824fdc03c2",
+    "user": "ke6"
+}
+
+[2025-02-21 15:07:10]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 15:07:10]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 15:07:10]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "d566d3f6bb1103d595aa0d824fdc03c2",
+    "user": "ke6"
+}
+
+[2025-02-21 15:07:10]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = d566d3f6bb1103d595aa0d824fdc03c2, start = 0, count = 1
+[2025-02-21 15:07:10]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 15:07:10]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 16:55:32]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 16:55:32]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "2ebe1d11d75df83adab516427857aed3",
+    "user": "ke6"
+}
+
+[2025-02-21 16:55:32]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 16:55:32]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 16:55:32]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "2ebe1d11d75df83adab516427857aed3",
+    "user": "ke6"
+}
+
+[2025-02-21 16:55:32]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = 2ebe1d11d75df83adab516427857aed3, start = 0, count = 1
+[2025-02-21 16:55:32]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 16:55:32]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 17:29:24]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 17:29:24]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "abfbe83856e2e00fd7c58b6756e355f6",
+    "user": "ke6"
+}
+
+[2025-02-21 17:29:24]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 17:29:24]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 17:29:24]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "abfbe83856e2e00fd7c58b6756e355f6",
+    "user": "ke6"
+}
+
+[2025-02-21 17:29:24]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = abfbe83856e2e00fd7c58b6756e355f6, start = 0, count = 1
+[2025-02-21 17:29:24]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 17:29:24]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 17:34:02]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 17:34:02]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "d81125b5580545bb781b2f9041c0ec33",
+    "user": "ke6"
+}
+
+[2025-02-21 17:34:02]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 17:34:02]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 17:34:02]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "d81125b5580545bb781b2f9041c0ec33",
+    "user": "ke6"
+}
+
+[2025-02-21 17:34:02]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = d81125b5580545bb781b2f9041c0ec33, start = 0, count = 1
+[2025-02-21 17:34:02]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 17:34:02]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 17:34:52]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 17:34:52]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "d81125b5580545bb781b2f9041c0ec33",
+    "user": "ke6"
+}
+
+[2025-02-21 17:34:52]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 17:34:52]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 17:34:52]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "d81125b5580545bb781b2f9041c0ec33",
+    "user": "ke6"
+}
+
+[2025-02-21 17:34:52]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = d81125b5580545bb781b2f9041c0ec33, start = 0, count = 1
+[2025-02-21 17:34:52]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 17:34:52]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 17:37:07]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 17:37:07]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "339092e94166fa5a49aa2b90b4e5a429",
+    "user": "ke6"
+}
+
+[2025-02-21 17:37:07]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 17:37:07]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 17:37:07]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "339092e94166fa5a49aa2b90b4e5a429",
+    "user": "ke6"
+}
+
+[2025-02-21 17:37:07]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = 339092e94166fa5a49aa2b90b4e5a429, start = 0, count = 1
+[2025-02-21 17:37:07]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 17:37:07]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 17:40:23]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 17:40:23]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "815340ec153595263a23ae8dd65650a8",
+    "user": "ke6"
+}
+
+[2025-02-21 17:40:23]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 17:40:23]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 17:40:23]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "815340ec153595263a23ae8dd65650a8",
+    "user": "ke6"
+}
+
+[2025-02-21 17:40:23]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = 815340ec153595263a23ae8dd65650a8, start = 0, count = 1
+[2025-02-21 17:40:23]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 17:40:23]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 23:41:53]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-21 23:44:34]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-21 23:44:56]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 23:44:56]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "bcc1c71b638fcd09bcea1ae46a49d597",
+    "user": "ke6"
+}
+
+[2025-02-21 23:44:56]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 23:44:56]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 23:44:56]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "bcc1c71b638fcd09bcea1ae46a49d597",
+    "user": "ke6"
+}
+
+[2025-02-21 23:44:56]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = bcc1c71b638fcd09bcea1ae46a49d597, start = 0, count = 1
+[2025-02-21 23:44:56]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 23:44:56]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 23:45:35]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 23:45:35]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "ba5df6556472693a81ed205b9cb9f5b4",
+    "user": "ke6"
+}
+
+[2025-02-21 23:45:35]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 23:45:35]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 23:45:35]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "ba5df6556472693a81ed205b9cb9f5b4",
+    "user": "ke6"
+}
+
+[2025-02-21 23:45:35]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = ba5df6556472693a81ed205b9cb9f5b4, start = 0, count = 1
+[2025-02-21 23:45:35]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 23:45:35]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 23:46:03]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 23:46:03]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "25673be0707ef88fac8b8599df977b36",
+    "user": "ke6"
+}
+
+[2025-02-21 23:46:03]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 23:46:03]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 23:46:03]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "25673be0707ef88fac8b8599df977b36",
+    "user": "ke6"
+}
+
+[2025-02-21 23:46:03]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = 25673be0707ef88fac8b8599df977b36, start = 0, count = 1
+[2025-02-21 23:46:03]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 23:46:03]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 23:47:06]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-21 23:47:06]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "9064a5a0eb0d5bc0b07575b16b7ac6b1",
+    "user": "ke6"
+}
+
+[2025-02-21 23:47:06]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-21 23:47:06]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-21 23:47:06]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "9064a5a0eb0d5bc0b07575b16b7ac6b1",
+    "user": "ke6"
+}
+
+[2025-02-21 23:47:06]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = 9064a5a0eb0d5bc0b07575b16b7ac6b1, start = 0, count = 1
+[2025-02-21 23:47:06]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-21 23:47:06]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 23:58:44]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123,database=cloud_disk]

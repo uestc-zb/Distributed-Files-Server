@@ -1,0 +1,22 @@
+[2025-02-24 10:20:45]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-24 10:20:45]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-24 10:20:45]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-24 10:20:45]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-24 10:20:45]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-24 10:20:45]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-24 10:20:49]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-24 10:20:49]--[common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+[2025-02-24 10:20:49]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-24 10:20:54]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-24 10:20:54]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-24 10:20:54]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-24 10:20:54]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-24 10:21:02]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-24 10:21:02]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-24 10:21:02]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-24 10:21:02]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-24 10:21:04]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-24 10:21:04]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-24 10:21:06]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-24 10:21:06]--[common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+[2025-02-24 10:21:06]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!

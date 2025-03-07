@@ -1,0 +1,52 @@
+[2025-02-22 00:14:24]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "zb",
+    "phone": "11111111111",
+    "userName": "zb"
+}
+
+[2025-02-22 00:14:24]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = 123, mysql_db = cloud_disk
+[2025-02-22 00:14:24]--[src_cgi/reg_cgi.c:141]--user = zb, nick_name = zb, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 11111111111, email = abc@qq.com
+[2025-02-22 00:28:01]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "zb",
+    "phone": "11111111111",
+    "userName": "zhangbo"
+}
+
+[2025-02-22 00:28:01]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = 123, mysql_db = cloud_disk
+[2025-02-22 00:28:01]--[src_cgi/reg_cgi.c:141]--user = zhangbo, nick_name = zb, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 11111111111, email = abc@qq.com
+[2025-02-22 00:28:01]--[src_cgi/reg_cgi.c:186]--insert into user (name, nickname, password, phone, createtime, email) values ('zhangbo', 'zb', 'e10adc3949ba59abbe56e057f20f883e', '11111111111', '2025-02-22 00:28:01', 'abc@qq.com') 插入失败：Duplicate entry 'zb' for key 'user.uq_nickname'
+[2025-02-22 00:28:18]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "zb",
+    "phone": "11111111111",
+    "userName": "zhangbo"
+}
+
+[2025-02-22 00:28:18]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = 123, mysql_db = cloud_disk
+[2025-02-22 00:28:18]--[src_cgi/reg_cgi.c:141]--user = zhangbo, nick_name = zb, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 11111111111, email = abc@qq.com
+[2025-02-22 00:28:18]--[src_cgi/reg_cgi.c:186]--insert into user (name, nickname, password, phone, createtime, email) values ('zhangbo', 'zb', 'e10adc3949ba59abbe56e057f20f883e', '11111111111', '2025-02-22 00:28:18', 'abc@qq.com') 插入失败：Duplicate entry 'zb' for key 'user.uq_nickname'
+[2025-02-22 00:28:26]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "zb2",
+    "phone": "11111111111",
+    "userName": "zhangbo"
+}
+
+[2025-02-22 00:28:26]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = 123, mysql_db = cloud_disk
+[2025-02-22 00:28:26]--[src_cgi/reg_cgi.c:141]--user = zhangbo, nick_name = zb2, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 11111111111, email = abc@qq.com
+[2025-02-22 02:00:15]--[src_cgi/reg_cgi.c:236]--buf = {
+    "email": "abc@qq.com",
+    "firstPwd": "e10adc3949ba59abbe56e057f20f883e",
+    "nickName": "zbo",
+    "phone": "11111111111",
+    "userName": "zhangboo"
+}
+
+[2025-02-22 02:00:15]--[src_cgi/reg_cgi.c:128]--mysql_user = root, mysql_pwd = 123, mysql_db = cloud_disk
+[2025-02-22 02:00:15]--[src_cgi/reg_cgi.c:141]--user = zhangboo, nick_name = zbo, pwd = e10adc3949ba59abbe56e057f20f883e, tel = 11111111111, email = abc@qq.com

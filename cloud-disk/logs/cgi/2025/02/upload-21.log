@@ -1,0 +1,5 @@
+[2025-02-21 15:03:02]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-21 15:04:57]--[src_cgi/upload_cgi.c:616]--ke6成功上传[VCG211250150369.jpg, 大小：598639, md5码：f24b4c32c342d06c0747f1a801c46465]到本地
+[2025-02-21 15:04:57]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg] succ!
+[2025-02-21 15:04:57]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg
+[2025-02-21 15:04:57]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('f24b4c32c342d06c0747f1a801c46465', 'group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg', 'http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg', '598639', 'jpg', 1) 文件信息插入成功
+[2025-02-21 23:41:53]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-21 23:44:33]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-21 23:58:44]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123,database=cloud_disk]

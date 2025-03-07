@@ -1,0 +1,22 @@
+[2025-02-24 10:20:45]--[src_cgi/login_cgi.c:288]--buf = {
+    "pwd": "e10adc3949ba59abbe56e057f20f883e",
+    "user": "ke6"
+}
+
+[2025-02-24 10:20:45]--[src_cgi/login_cgi.c:294]--user = ke6, pwd = e10adc3949ba59abbe56e057f20f883e
+[2025-02-24 10:20:45]--[src_cgi/login_cgi.c:101]--mysql_user = root, mysql_pwd = 123, mysql_db = cloud_disk
+[2025-02-24 10:20:45]--[src_cgi/login_cgi.c:161]--redis:[ip=127.0.0.1,port=6379]
+[2025-02-24 10:20:45]--[src_cgi/login_cgi.c:185]--tmp = ke6575929454881
+[2025-02-24 10:20:45]--[src_cgi/login_cgi.c:201]--base64 = 78l9kwrdR9hrEWmmUI+zLQ==
+[2025-02-24 10:20:45]--[src_cgi/login_cgi.c:303]--token = e2011084d47dc853d6cba33f8435b0d9
+[2025-02-24 10:21:02]--[src_cgi/login_cgi.c:288]--buf = {
+    "pwd": "e10adc3949ba59abbe56e057f20f883e",
+    "user": "zhangbo"
+}
+
+[2025-02-24 10:21:02]--[src_cgi/login_cgi.c:294]--user = zhangbo, pwd = e10adc3949ba59abbe56e057f20f883e
+[2025-02-24 10:21:02]--[src_cgi/login_cgi.c:101]--mysql_user = root, mysql_pwd = 123, mysql_db = cloud_disk
+[2025-02-24 10:21:02]--[src_cgi/login_cgi.c:161]--redis:[ip=127.0.0.1,port=6379]
+[2025-02-24 10:21:02]--[src_cgi/login_cgi.c:185]--tmp = zhangbo2119657893
+[2025-02-24 10:21:02]--[src_cgi/login_cgi.c:201]--base64 = zmlu1BCAS5SQVfxzKExZ1q7DEUAkWTSv
+[2025-02-24 10:21:02]--[src_cgi/login_cgi.c:303]--token = 1e8094c2d0fdbd3db9b52f37eae5c4df

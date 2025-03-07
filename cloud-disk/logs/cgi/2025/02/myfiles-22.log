@@ -1,0 +1,196 @@
+[2025-02-22 00:12:53]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-22 00:13:13]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 00:13:13]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "64932c6dec11704063909782e945fe25",
+    "user": "ke6"
+}
+
+[2025-02-22 00:13:13]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-22 00:13:13]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-22 00:13:13]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "64932c6dec11704063909782e945fe25",
+    "user": "ke6"
+}
+
+[2025-02-22 00:13:13]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = 64932c6dec11704063909782e945fe25, start = 0, count = 1
+[2025-02-22 00:13:13]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-22 00:13:13]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-22 00:14:32]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 00:14:32]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "6b77ed1af05767dcea8e1bdf0cc95aab",
+    "user": "zb"
+}
+
+[2025-02-22 00:14:32]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zb" 操作失败
+[2025-02-22 00:14:32]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 00:18:54]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-22 00:19:05]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 00:19:05]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "26381b6b6903538e71a17da5451fec58",
+    "user": "zb"
+}
+
+[2025-02-22 00:19:05]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zb" 操作失败
+[2025-02-22 00:19:05]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 00:22:09]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 00:22:09]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "54f9849d7107c2a4fe956402a25bb4f3",
+    "user": "zb"
+}
+
+[2025-02-22 00:22:09]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zb" 操作失败
+[2025-02-22 00:22:09]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 00:26:09]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 00:26:09]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "54990c82f5ed094ee958fe8f13109500",
+    "user": "zb"
+}
+
+[2025-02-22 00:26:09]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zb" 操作失败
+[2025-02-22 00:26:09]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 00:28:33]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 00:28:33]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "46e67379116f21f4b1fd8bc4a0c1085a",
+    "user": "zhangbo"
+}
+
+[2025-02-22 00:28:33]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zhangbo" 操作失败
+[2025-02-22 00:28:33]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 00:32:33]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 00:32:33]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "773ca7c7d08d702835964921ea11eb29",
+    "user": "zhangbo"
+}
+
+[2025-02-22 00:32:33]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zhangbo" 操作失败
+[2025-02-22 00:32:33]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 00:34:53]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 00:34:53]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "3e963b7699a7f11830610984e8ddafdb",
+    "user": "zhangbo"
+}
+
+[2025-02-22 00:34:53]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zhangbo" 操作失败
+[2025-02-22 00:34:53]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 00:47:26]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-22 00:47:34]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 00:47:34]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "7f320b354a3c9e63ceb8d17f366dde9f",
+    "user": "zb"
+}
+
+[2025-02-22 00:47:34]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zb" 操作失败
+[2025-02-22 00:47:34]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 01:00:06]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-22 01:00:18]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 01:00:18]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "b5cde130c65860ae1c01928ef75bd61a",
+    "user": "zb"
+}
+
+[2025-02-22 01:00:18]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zb" 操作失败
+[2025-02-22 01:00:18]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 01:13:15]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 01:13:15]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "7846ab795fd43e8f204fac0e1902d868",
+    "user": "zb"
+}
+
+[2025-02-22 01:13:15]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zb" 操作失败
+[2025-02-22 01:13:15]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 01:16:15]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 01:16:15]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "68e2a16b466d40b0cabaf26e2d8d503c",
+    "user": "zb"
+}
+
+[2025-02-22 01:16:15]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zb" 操作失败
+[2025-02-22 01:16:15]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 01:18:29]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 01:18:29]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "46944b387830abb3cfeb61df2d8a0f34",
+    "user": "zb"
+}
+
+[2025-02-22 01:18:29]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zb" 操作失败
+[2025-02-22 01:18:29]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 01:44:20]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-22 01:45:03]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 01:45:03]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "fdf57bc529c6477af6307d5495f25ccb",
+    "user": "zhangbo"
+}
+
+[2025-02-22 01:45:03]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zhangbo" 操作失败
+[2025-02-22 01:45:03]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 02:00:19]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 02:00:19]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "11b567d1a88ba285bea292524cfc3406",
+    "user": "zhangboo"
+}
+
+[2025-02-22 02:00:19]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zhangboo" 操作失败
+[2025-02-22 02:00:19]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 02:00:28]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 02:00:28]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "11b567d1a88ba285bea292524cfc3406",
+    "user": "zhangboo"
+}
+
+[2025-02-22 02:00:28]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zhangboo" 操作失败
+[2025-02-22 02:00:28]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 02:00:31]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 02:00:31]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "11b567d1a88ba285bea292524cfc3406",
+    "user": "zhangboo"
+}
+
+[2025-02-22 02:00:31]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zhangboo" 操作失败
+[2025-02-22 02:00:31]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 09:14:46]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 09:14:46]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "8ab3f24bf5fcc1603d649f4bacf5f219",
+    "user": "zhangboo"
+}
+
+[2025-02-22 09:14:46]--[src_cgi/myfiles_cgi.c:164]--select count from user_file_count where user="zhangboo" 操作失败
+[2025-02-22 09:14:46]--[src_cgi/myfiles_cgi.c:176]--line = 0
+[2025-02-22 09:15:40]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2025-02-22 09:15:40]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "d0049cca8d9c9e3dd69d507fefdec807",
+    "user": "ke6"
+}
+
+[2025-02-22 09:15:40]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2025-02-22 09:15:40]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2025-02-22 09:15:40]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "d0049cca8d9c9e3dd69d507fefdec807",
+    "user": "ke6"
+}
+
+[2025-02-22 09:15:40]--[src_cgi/myfiles_cgi.c:548]--user = ke6, token = d0049cca8d9c9e3dd69d507fefdec807, start = 0, count = 1
+[2025-02-22 09:15:40]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'ke6' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2025-02-22 09:15:40]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:04:57",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}

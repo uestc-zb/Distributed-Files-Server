@@ -1,0 +1,9 @@
+[2025-02-21 15:03:02]--[src_cgi/md5_cgi.c:40]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-21 15:04:57]--[src_cgi/md5_cgi.c:339]--buf = {
+    "fileName": "VCG211250150369.jpg",
+    "md5": "f24b4c32c342d06c0747f1a801c46465",
+    "token": "19d75c77a5e9be67b450bedf98ad438a",
+    "user": "ke6"
+}
+
+[2025-02-21 15:04:57]--[src_cgi/md5_cgi.c:361]--user = ke6, token = 19d75c77a5e9be67b450bedf98ad438a, md5 = f24b4c32c342d06c0747f1a801c46465, filename = VCG211250150369.jpg
+[2025-02-21 23:41:53]--[src_cgi/md5_cgi.c:40]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-21 23:44:33]--[src_cgi/md5_cgi.c:40]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-21 23:58:44]--[src_cgi/md5_cgi.c:40]--mysql:[user=root,pwd=123,database=cloud_disk]

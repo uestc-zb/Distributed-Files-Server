@@ -1,0 +1,9 @@
+[2025-02-23 07:47:13]--[src_cgi/dealfile_cgi.c:695]--cmd = share
+[2025-02-23 07:47:13]--[src_cgi/dealfile_cgi.c:727]--buf = {
+    "filename": "VCG211250150369.jpg",
+    "md5": "f24b4c32c342d06c0747f1a801c46465",
+    "token": "d0049cca8d9c9e3dd69d507fefdec807",
+    "user": "ke6"
+}
+
+[2025-02-23 07:47:13]--[src_cgi/dealfile_cgi.c:730]--user = ke6, token = d0049cca8d9c9e3dd69d507fefdec807, md5 = f24b4c32c342d06c0747f1a801c46465, filename = VCG211250150369.jpg

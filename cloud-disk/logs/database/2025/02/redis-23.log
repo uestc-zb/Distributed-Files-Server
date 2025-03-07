@@ -1,0 +1,27 @@
+[2025-02-23 07:46:33]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-23 07:46:33]--[common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+[2025-02-23 07:46:33]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-23 07:46:43]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-23 07:46:43]--[common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+[2025-02-23 07:46:43]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-23 07:46:45]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-23 07:46:45]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-23 07:46:45]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-23 07:46:45]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-23 07:47:07]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-23 07:47:07]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-23 07:47:11]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-23 07:47:11]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-23 07:47:11]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-23 07:47:11]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-23 07:47:13]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-23 07:47:13]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-23 07:47:13]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-23 07:47:13]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-23 07:47:17]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-23 07:47:17]--[common/redis_op.c:329]--[+][GMS_REDIS]=REDIS_REPLY_string=[string] use reply->str to get data, reply->len get data len
+[2025-02-23 07:47:17]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-23 07:47:19]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-23 07:47:19]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2025-02-23 07:47:19]--[common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2025-02-23 07:47:19]--[common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!

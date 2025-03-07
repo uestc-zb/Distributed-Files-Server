@@ -1,0 +1,224 @@
+[2025-02-21 15:03:03]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-21 15:03:03]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2025-02-21 15:04:31]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:04:31]--[src_cgi/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2025-02-21 15:04:31]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2025-02-21 15:04:34]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:04:34]--[src_cgi/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2025-02-21 15:04:34]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2025-02-21 15:05:06]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:05:06]--[src_cgi/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2025-02-21 15:05:06]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2025-02-21 15:05:15]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:05:15]--[src_cgi/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2025-02-21 15:05:15]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2025-02-21 15:05:16]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:05:16]--[src_cgi/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2025-02-21 15:05:16]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2025-02-21 15:05:19]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:05:19]--[src_cgi/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2025-02-21 15:05:19]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2025-02-21 15:05:20]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:05:20]--[src_cgi/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2025-02-21 15:05:20]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2025-02-21 15:06:00]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:06:00]--[src_cgi/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2025-02-21 15:06:00]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2025-02-21 15:06:01]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:06:01]--[src_cgi/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2025-02-21 15:06:01]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2025-02-21 15:06:19]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:06:19]--[src_cgi/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2025-02-21 15:06:19]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2025-02-21 15:06:22]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:06:22]--[src_cgi/sharefiles_cgi.c:73]--select count from user_file_count where user="xxx_share_xxx_file_xxx_list_xxx_count_xxx" 操作失败
+[2025-02-21 15:06:22]--[src_cgi/sharefiles_cgi.c:85]--line = 0
+[2025-02-21 15:06:35]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:06:35]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2025-02-21 15:06:35]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2025-02-21 15:06:35]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2025-02-21 15:06:35]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2025-02-21 15:06:35]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2025-02-21 15:06:35]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:06:30",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 15:06:36]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:06:36]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2025-02-21 15:06:36]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2025-02-21 15:06:36]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2025-02-21 15:06:36]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2025-02-21 15:06:36]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2025-02-21 15:06:36]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:06:30",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 15:06:45]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:06:45]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2025-02-21 15:06:45]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2025-02-21 15:06:45]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2025-02-21 15:06:45]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2025-02-21 15:06:45]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 4
+[2025-02-21 15:06:45]--[src_cgi/sharefiles_cgi.c:413]--select md5, filename, pv from share_file_list order by pv desc 在操作
+[2025-02-21 15:06:45]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"VCG211250150369.jpg",
+			"pv":	0
+		}]
+}
+[2025-02-21 15:06:48]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:06:48]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2025-02-21 15:06:48]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2025-02-21 15:06:48]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2025-02-21 15:06:48]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2025-02-21 15:06:48]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2025-02-21 15:06:48]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"VCG211250150369.jpg",
+			"pv":	0
+		}]
+}
+[2025-02-21 15:06:51]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:06:51]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2025-02-21 15:06:51]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2025-02-21 15:06:51]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2025-02-21 15:06:51]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2025-02-21 15:06:51]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2025-02-21 15:06:51]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:06:30",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	0,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 15:07:05]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 15:07:05]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2025-02-21 15:07:05]--[src_cgi/sharefiles_cgi.c:598]--cmd = pvdesc
+[2025-02-21 15:07:05]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2025-02-21 15:07:05]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2025-02-21 15:07:05]--[src_cgi/sharefiles_cgi.c:399]--sql_num = 1, redis_num = 1
+[2025-02-21 15:07:05]--[src_cgi/sharefiles_cgi.c:529]--{
+	"files":	[{
+			"filename":	"VCG211250150369.jpg",
+			"pv":	1
+		}]
+}
+[2025-02-21 16:56:16]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 16:56:16]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2025-02-21 16:56:16]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2025-02-21 16:56:16]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2025-02-21 16:56:16]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2025-02-21 16:56:16]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2025-02-21 16:56:16]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:06:30",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 17:05:05]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 17:05:05]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2025-02-21 17:05:05]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2025-02-21 17:05:05]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2025-02-21 17:05:05]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2025-02-21 17:05:05]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2025-02-21 17:05:05]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:06:30",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 17:05:07]--[src_cgi/sharefiles_cgi.c:598]--cmd = count
+[2025-02-21 17:05:07]--[src_cgi/sharefiles_cgi.c:85]--line = 1
+[2025-02-21 17:05:07]--[src_cgi/sharefiles_cgi.c:598]--cmd = normal
+[2025-02-21 17:05:07]--[src_cgi/sharefiles_cgi.c:636]--buf = {
+    "count": 1,
+    "start": 0
+}
+
+[2025-02-21 17:05:07]--[src_cgi/sharefiles_cgi.c:645]--start = 0, count = 1
+[2025-02-21 17:05:07]--[src_cgi/sharefiles_cgi.c:172]--select share_file_list.*, file_info.url, file_info.size, file_info.type from file_info, share_file_list where file_info.md5 = share_file_list.md5 limit 0, 1 在操作
+[2025-02-21 17:05:07]--[src_cgi/sharefiles_cgi.c:292]--{
+	"files":	[{
+			"user":	"ke6",
+			"md5":	"f24b4c32c342d06c0747f1a801c46465",
+			"time":	"2025-02-21 15:06:30",
+			"filename":	"VCG211250150369.jpg",
+			"share_status":	1,
+			"pv":	1,
+			"url":	"http://192.168.226.139:80/group1/M00/00/00/wKjii2e4JZmAIqVvAAkib4Q2Pds625.jpg",
+			"size":	598639,
+			"type":	"jpg"
+		}]
+}
+[2025-02-21 23:41:53]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-21 23:41:53]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2025-02-21 23:44:34]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-21 23:44:34]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
+[2025-02-21 23:58:44]--[src_cgi/sharefiles_cgi.c:42]--mysql:[user=root,pwd=123,database=cloud_disk][2025-02-21 23:58:44]--[src_cgi/sharefiles_cgi.c:47]--redis:[ip=127.0.0.1,port=6379]
