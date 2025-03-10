@@ -189,7 +189,7 @@ void Common::writeLoginInfo(QString user, QString pwd, bool isRemeber, QString p
         cout << "DesEnc err";
         return;
     }
-
+    qDebug() << encUsrLen;
     // 用户密码加密
     unsigned char encPwd[512] = {0};
     int encPwdLen;

@@ -747,7 +747,6 @@ void MyFileWg::getUserFilesList(MyFileWg::Display cmd)
         "count": 10
     }
     */
-    qDebug() << m_start << " " << m_count;
     QByteArray data = setFilesListJson( login->getUser(), login->getToken(), m_start, m_count);
 
     //改变文件起点位置

@@ -15,11 +15,16 @@ const QString  RECORDDIR    = "../conf/record/";      // 用户文件上传下�
 const QString  FILETYPEDIR  = ":/conf/fileType";     // 存放文件类型图片目录
 
 // 正则表达式
-const QString USER_REG      = "^[a-zA-Z\\d_@#-\\*]\\{3,16\\}$";
-const QString PASSWD_REG    = "^[a-zA-Z\\d_@#-\\*]\\{6,18\\}$";
-const QString PHONE_REG     = "1\\d\\{10\\}";
-const QString EMAIL_REG     = "^[a-zA-Z\\d\\._-]\\+@[a-zA-Z\\d_\\.-]\\+(\\.[a-zA-Z0-9_-]\\+)+$";
-const QString IP_REG        = "((2[0-4]\\d|25[0-5]|[01]?\\d\\d?)\\.){3}(2[0-4]\\d|25[0-5]|[01]?\\d\\d?)";
+//const QString USER_REG      = "^[a-zA-Z\\d_@#-\\*]\\{3,16\\}$";
+//const QString PASSWD_REG    = "^[a-zA-Z\\d_@#-\\*]\\{6,18\\}$";
+//const QString PHONE_REG     = "1\\d\\{10\\}";
+//const QString EMAIL_REG     = "^[a-zA-Z\\d\\._-]\\+@[a-zA-Z\\d_\\.-]\\+(\\.[a-zA-Z0-9_-]\\+)+$";
+//const QString IP_REG        = "((2[0-4]\\d|25[0-5]|[01]?\\d\\d?)\\.){3}(2[0-4]\\d|25[0-5]|[01]?\\d\\d?)";
+const QString USER_REG      = "^[a-zA-Z\\d_@#\\-*]{3,16}$";
+const QString PASSWD_REG    = "^[a-zA-Z\\d_@#\\-*]{6,18}$";
+const QString PHONE_REG     = "^1\\d{10}$";
+const QString EMAIL_REG = "^[a-zA-Z\\d._-]+@[a-zA-Z\\d_.-]+(\\.[a-zA-Z0-9_-]+)+$";
+const QString IP_REG = "((2[0-4]\\d|25[0-5]|[01]?\\d\\d?)\\.){3}(2[0-4]\\d|25[0-5]|[01]?\\d\\d?)";
 const QString PORT_REG      = "^[1-9]$|(^[1-9][0-9]$)|(^[1-9][0-9][0-9]$)|(^[1-9][0-9][0-9][0-9]$)|(^[1-6][0-5][0-5][0-3][0-5]$)";
 
 // 文件信息

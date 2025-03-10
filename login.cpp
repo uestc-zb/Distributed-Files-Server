@@ -50,7 +50,7 @@ Login::Login(QWidget *parent) :
     // 加载图片信息 - 显示文件列表的时候用，在此初始化
     m_cm.getFileTypeList();
 
-#if 1
+#if 0
     // 测试数据
     ui->reg_usr->setText("kevin_666");
     ui->reg_nickname->setText("kevin@666");
@@ -229,13 +229,13 @@ void Login::on_login_btn_clicked()
     QString address = ui->address_server->text();
     QString port = ui->port_server->text();
 
-#if 0
+#if 1
     // 数据校验
     QRegExp regexp(USER_REG);
     if(!regexp.exactMatch(user))
     {
         QMessageBox::warning(this, "警告", "用户名格式不正确");
-        ui->log_usr->clear();
+//        ui->log_usr->clear();
         ui->log_usr->setFocus();
         return;
     }
@@ -243,7 +243,7 @@ void Login::on_login_btn_clicked()
     if(!regexp.exactMatch(pwd))
     {
         QMessageBox::warning(this, "警告", "密码格式不正确");
-        ui->log_pwd->clear();
+//        ui->log_pwd->clear();
         ui->log_pwd->setFocus();
         return;
     }
@@ -290,7 +290,7 @@ void Login::on_login_btn_clicked()
         if( tmpList.at(0) == "000" )
         {
             cout << "登陆成功";
-
+            cout << tmpList[1];
             // 设置登陆信息，显示文件列表界面需要使用这些信息
             LoginInfoInstance *p = LoginInfoInstance::getInstance(); //获取单例
             p->setLoginInfo(user, address, port, tmpList.at(1));
